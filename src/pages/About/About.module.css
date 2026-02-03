@@ -124,16 +124,8 @@
   gap: 0.5rem;
 }
 
-.greeting {
-  font-size: 1rem;
-  color: #ffc86b;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 .name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #f7f7f7;
   margin: 0;
@@ -174,7 +166,7 @@
 
 /* About Paragraph */
 .aboutPara {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: 'MyFontAbout';
   color: #d0d0d0;
   line-height: 1.8;
@@ -208,7 +200,7 @@
 }
 
 .highlightIcon {
-  font-size: 2rem;
+  font-size: 1.8rem;
   flex-shrink: 0;
 }
 
@@ -219,7 +211,7 @@
 }
 
 .highlightTitle {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #f7f7f7;
   margin: 0;
@@ -531,6 +523,7 @@
 @media (max-width: 480px) {
   .aboutSection {
     padding: 1rem 0;
+    overflow-y: hidden !important;
   }
 
   .aboutContainer {

@@ -4,6 +4,7 @@
     format('woff');
   font-display: swap;
 }
+
 *:focus {
   outline: none;
 }
