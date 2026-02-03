@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'MyFontExp';
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TitleExp';
+  src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
+}
+
+.dateStyle {
+  color: #fff;
+  font-family: 'TitleExp';
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 0 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+li {
+  color: #a1a1a2;
+  font-family: 'MyFontExp';
+}
+
+h3,
+h4 {
+  font-family: 'TitleExp';
+}
+
+.spanStyle {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: 'MyFontExp';
+}
+
+.spanStyle span {
+  display: inline-block;
+  background-color: #a1a1a2;
+  color: #31333b;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Large tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  h3 {
+    font-size: 1.1rem;
+  }
+  
+  h4 {
+    font-size: 1rem;
+  }
+  
+  li {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  h3 {
+    font-size: 1rem;
+  }
+  
+  h4 {
+    font-size: 0.95rem;
+  }
+  
+  li {
+    font-size: 0.9rem;
+  }
+  
+  .spanStyle span {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+}
+
+/* Small tablets (481px to 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  h3 {
+    font-size: 0.95rem;
+  }
+  
+  h4 {
+    font-size: 0.9rem;
+  }
+  
+  li {
+    font-size: 0.85rem;
+  }
+  
+  .spanStyle {
+    gap: 6px;
+  }
+  
+  .spanStyle span {
+    font-size: 0.75rem;
+    padding: 3px 7px;
+  }
+}
+
+/* Small phones (480px and below) */
+@media (max-width: 480px) {
+  h3 {
+    font-size: 0.9rem;
+  }
+  
+  h4 {
+    font-size: 0.85rem;
+  }
+  
+  li {
+    font-size: 0.8rem;
+    margin-left: -10px;
+  }
+  
+  .spanStyle {
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .spanStyle span {
+    font-size: 0.7rem;
+    padding: 3px 6px;
+  }
+  
+  .dateStyle {
+    font-size: 0.75rem;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+  h3 {
+    font-size: 0.85rem;
+  }
+  
+  h4 {
+    font-size: 0.8rem;
+  }
+  
+  li {
+    font-size: 0.75rem;
+  }
+  
+  .spanStyle span {
+    font-size: 0.65rem;
+  }
+}

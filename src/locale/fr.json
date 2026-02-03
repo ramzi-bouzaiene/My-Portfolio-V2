@@ -1,0 +1,106 @@
+{
+  "navbar": {
+    "about": "A Propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contactez-moi",
+    "skills": "Compétences",
+    "experience": "Expériences"
+  },
+
+  "about": {
+    "title": "À propos",
+    "greeting": "Bonjour, je suis",
+    "name": "Ramzi Bouzaiene",
+    "highlight": "Ingénieur Logiciel Full Stack",
+    "description": "Avec plus de 4 ans d'expérience dans la conception, le développement et le déploiement d'applications web de niveau entreprise, je me spécialise dans la création de systèmes backend évolutifs et d'interfaces frontend modernes. Ma passion réside dans la création de solutions innovantes qui génèrent de la valeur commerciale tout en maintenant les plus hauts standards de qualité de code et de performance système.",
+    "techStack": "Technologies Principales",
+    "stats": {
+      "years": "Années d'Expérience",
+      "users": "Utilisateurs Servis",
+      "projects": "Projets Livrés",
+      "technologies": "Technologies"
+    },
+    "highlights": {
+      "scalable": {
+        "title": "Architecture Évolutive",
+        "description": "Expert en création d'APIs performantes, systèmes distribués et applications d'entreprise"
+      },
+      "banking": {
+        "title": "Banque & FinTech",
+        "description": "Création de plateformes critiques servant des millions d'utilisateurs sans incident de sécurité"
+      },
+      "ai": {
+        "title": "IA & Innovation",
+        "description": "Exploration des LLMs et de l'IA générative pour améliorer les workflows et l'expérience utilisateur"
+      }
+    }
+  },
+  "home": {
+    "iam": "Je suis",
+    "description": "Ingénieur Logiciel Full Stack Passionné par",
+    "secondDescription": "la Création de Solutions Innovantes à Travers le Code.",
+    "resume": "CV"
+  },
+  "services": {
+    "title": "Services",
+    "frontend": {
+      "title": "Développement Frontend",
+      "description": "En utilisant des frameworks modernes comme React et Angular, je créerai un frontend réactif et visuellement attrayant pour votre site web ou application mobile. L'accent sera mis sur l'optimisation des performances pour garantir une expérience utilisateur rapide et fluide sur tous les appareils, tout en alignant le design avec l'identité de votre marque."
+    },
+    "backend": {
+      "title": "Développement Backend",
+      "description": "Des API sécurisées et évolutives seront développées pour alimenter la fonctionnalité principale de votre application, assurant un flux de données efficace. Des bases de données robustes seront conçues pour un stockage et une récupération des données sans faille, tandis que la logique backend sera optimisée pour garantir des performances, une sécurité et une fiabilité maximales."
+    },
+    "fullstack": {
+      "title": "Application Full-Stack",
+      "description": "Une solution full-stack fluide sera créée, intégrant un frontend dynamique avec un backend puissant. Des fonctionnalités en temps réel comme des notifications en direct ou des systèmes de chat seront ajoutées, tandis que des services tiers tels que les passerelles de paiement et le stockage en cloud seront intégrés pour étendre les fonctionnalités de votre application."
+    },
+    "devops": {
+      "title": "DevOps et Déploiement",
+      "description": "Des pipelines CI/CD automatisés seront mis en place pour rationaliser vos processus de développement et de déploiement, garantissant des versions plus rapides et fiables. Votre application sera déployée sur des plateformes cloud évolutives comme AWS ou Azure, tandis que Docker et Kubernetes seront utilisés pour la conteneurisation et l'orchestration afin d'améliorer la gestion."
+    },
+    "maintenance": {
+      "title": "Maintenance et Support",
+      "description": "Un support continu assurera le bon fonctionnement de votre application, avec des corrections de bugs et l'ajout de nouvelles fonctionnalités selon les besoins. La surveillance des performances identifiera et résoudra les goulots d'étranglement, garantissant ainsi que votre application reste rapide et fiable, tandis que des mises à jour régulières maintiendront les derniers standards de sécurité et technologies."
+    },
+    "consulting": {
+      "title": "Consultation et Formation",
+      "description": "Je vous guiderai dans le choix des meilleurs outils et technologies pour atteindre vos objectifs commerciaux, je guiderai votre équipe de développement pour améliorer ses compétences et augmenter la productivité, et je proposerai des ateliers personnalisés pour vous aider, vous et votre équipe, à maîtriser le développement full-stack."
+    }
+  },
+  "skills": {
+    "skills": "Compétences"
+  },
+  "contact": {
+    "contactMe": "Contactez-moi",
+    "thanks": "Merci de votre visite",
+    "copyRight": "Tous droits réservés."
+  },
+  "experience": {
+    "title": "Expériences Professionnelles",
+    "backendEngineer": "Ingénieur Backend",
+    "frontendDeveloper": "Développeur Frontend",
+    "backendEngineerTasks": {
+      "1": "Développé des systèmes back-end évolutifs en Java/Spring Boot pour des plateformes bancaires d'entreprise servant plus d'1M d'utilisateurs actifs avec haute disponibilité, traitant plus de 2M de transactions annuelles représentant plus de 500M$ en volume.",
+      "2": "Réduit significativement les échecs d'authentification et amélioré la sécurité du système en développant une intégration personnalisée Keycloak SPI avec les services d'authentification Vasco basés sur SOAP, protégeant les données sensibles de plus d'1M d'utilisateurs.",
+      "3": "Accéléré les workflows administratifs en construisant un système complet de gestion back-office utilisant JSP et PrimeFaces, permettant au personnel bancaire de traiter les demandes clients 2x plus vite et réduisant considérablement les coûts opérationnels.",
+      "4": "Livré une plateforme bancaire de détail complète supportant la gestion de comptes, les opérations de cartes, les virements, le change de devises et le paiement de factures avec zéro incident de sécurité en production.",
+      "5": "Augmenté l'efficacité opérationnelle grâce à l'automatisation des processus métier utilisant BPMN et le moteur de workflow Flowable, éliminant plus de 200 heures de traitement manuel par mois.",
+      "6": "Collaboré avec des équipes pluridisciplinaires de 12+ développeurs, chefs de produit et analystes métier dans un environnement Agile/Scrum, livrant régulièrement des fonctionnalités sur des cycles de sprint de 2 semaines.",
+      "7": "Mentoré développeurs juniors et stagiaires, établissant des standards de revue de code et des bonnes pratiques ayant considérablement réduit les bugs en production et amélioré la fiabilité du code."
+    },
+    "sastecTasks": {
+      "1": "Accéléré la livraison de projets en développant une bibliothèque de composants React.js réutilisables utilisée dans plus de 5 applications, assurant la cohérence UI/UX et réduisant significativement le temps de développement.",
+      "2": "Amélioré les performances de streaming vidéo, réduisant la latence de 800ms à 480ms pour une plateforme de conférence en temps réel supportant plus de 500 utilisateurs simultanés.",
+      "3": "Atteint une couverture de tests complète avec Jest et React Testing Library, réduisant substantiellement les incidents en production et améliorant la fiabilité du code sur tous les déploiements.",
+      "4": "Augmenté la réactivité de l'application en migrant l'API REST legacy vers GraphQL, réduisant significativement les appels API et améliorant les métriques d'expérience utilisateur.",
+      "5": "Livré un lecteur vidéo Vue.js personnalisé avec des contrôles de lecture avancés, augmentant significativement l'engagement utilisateur avec des retours positifs de plus de 200 bêta-testeurs."
+    },
+    "siyouTasks": {
+      "1": "Construit et maintenu une plateforme e-commerce B2S2C à grande échelle utilisant Angular, supportant plus de 10 000 transactions quotidiennes et servant plus de 50 clients entreprise.",
+      "2": "Réduit substantiellement les temps d'arrêt du système en identifiant et résolvant les goulots d'étranglement critiques de performance, améliorant significativement la stabilité de l'application et les scores de satisfaction client.",
+      "3": "Développé une plateforme B2B évolutive utilisant React, TypeScript et Ant Design, améliorant significativement les temps de chargement des pages et offrant une expérience utilisateur améliorée pour les clients entreprise."
+    }
+  }
+}

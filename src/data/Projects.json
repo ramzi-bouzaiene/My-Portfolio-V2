@@ -1,0 +1,218 @@
+[
+  {
+    "title": "iPhone 15 Pro Website Replica",
+    "descriptionEn": "I built a creative frontend project replicating the Apple iPhone 15 Pro website, featuring 3D models and interactive animations using Three.js, GSAP, React.js, and TailwindCSS.",
+    "descriptionFr": "J'ai créé un projet frontend créatif reproduisant le site web de l'iPhone 15 Pro d'Apple, avec des modèles 3D et des animations interactives en utilisant Three.js, GSAP, React.js et TailwindCSS.",
+    "role": "Frontend Developer",
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
+    "features": [
+      "High-performance animations using GSAP for an engaging user experience",
+      "Interactive 3D models of iPhone 15 Pro with multiple color and size options",
+      "GSAP-powered video carousel for interactive browsing",
+      "Fully responsive layout optimized for all screen sizes"
+    ],
+    "highlights": [
+      "Leveraged React Three Fiber and Drei for 3D rendering and utility integration",
+      "Created visually captivating animations that enhance user interaction",
+      "Delivered a highly performant and maintainable codebase using Vite"
+    ],
+    "outcome": "Successfully demonstrated proficiency in advanced frontend technologies, creating a visually stunning and responsive website replica.",
+    "liveDemo": "https://apple-15-web-site.vercel.app/",
+    "sourceCode": "https://github.com/ramzibouzaiene/Apple-WebSite",
+    "image": "/images/apple.png",
+    "cover": "/images/apple-logo.png"
+  },
+  {
+    "title": "CORIS Bank Retail",
+    "descriptionEn": "I built secure banking APIs with Spring Boot, PostgreSQL, and Java for a project inspired by Coris Bank Retail, supporting thousands of users across multiple African nations.",
+    "descriptionFr": "J'ai développé des API bancaires sécurisées avec Spring Boot, PostgreSQL et Java pour un projet inspiré de Coris Bank Retail, prenant en charge des milliers d'utilisateurs à travers plusieurs pays africains.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL", "Keycloak"],
+    "role": "Backend Engineer",
+    "responsibilities": [
+      "Design and implement modular backend architecture",
+      "Develop RESTful web services",
+      "Implement activity logs and audits",
+      "Handle support requests and production interventions",
+      "Analyze functional specifications and document business/system requirements",
+      "Integrate external REST APIs",
+      "Participate in UAT and production deployment",
+      "Test and validate web services",
+      "Collaborate with the client's technical team for banking API testing and validation"
+    ],
+    "challenges": "Designing a modular backend architecture, integrating external REST APIs, handling support requests, and ensuring regulatory compliance.",
+    "outcome": "Delivered a scalable and secure application with seamless user and administrator experiences, successfully deployed in production environments.",
+    "liveDemo": "https://my.coris-bank.com/",
+    "image": "/images/coris.png",
+    "mobile": "https://play.google.com/store/apps/details?id=com.coris&hl=en"
+  },
+  {
+    "title": "UBank Data Warehouse",
+    "descriptionEn": "I developed a PostgreSQL-based data warehouse for a Banking-as-a-Service initiative, centralizing ACH/NACHA and real-time payment data (RTP, FedNow) for enhanced processing.",
+    "descriptionFr": "J'ai développé un entrepôt de données basé sur PostgreSQL pour une initiative Banking-as-a-Service, centralisant les données de paiements ACH/NACHA et en temps réel (RTP, FedNow) pour un traitement optimisé.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL"],
+    "role": "Backend Engineer",
+    "responsibilities": [
+      "Standardized data fields across ACH, RTP, and FedNow for consistency in the data warehouse",
+      "Developed custom parsing logic to process and structure data for PostgreSQL integration",
+      "Scaled data ingestion workflows to handle large transaction volumes efficiently",
+      "Validated data for accuracy and integrity across payment systems",
+      "Configured Apache Superset for real-time dashboards and insights"
+    ],
+    "image": "/images/ubank.png"
+  },
+  {
+    "title": "BNA Bank",
+    "descriptionEn": "I enhanced an existing banking system by improving authentication, authorization, and validation features with a custom SPI solution, integrated with external identity providers.",
+    "descriptionFr": "J'ai amélioré un système bancaire existant en renforçant l'authentification, l'autorisation et les fonctionnalités de validation grâce à une solution SPI personnalisée, intégrée à des fournisseurs d'identité externes.",
+    "technologies": ["Java", "GitLab", "Keycloak"],
+    "role": "Backend Engineer",
+    "responsibilities": [
+      "Create a Java-based application to enhance banking system security",
+      "Implement a custom SPI solution for improved authentication, authorization, and validation",
+      "Implement user login/authentication via SOAP with Vasco (external identity provider)",
+      "Analyze security requirements and document technical specifications",
+      "Configure development environment and deploy the solution to production",
+      "Implement tests to validate Keycloak and Vasco integration",
+      "Write detailed documentation on architecture, configurations, and system integrations"
+    ],
+    "challenges": "Implementing seamless integration between Keycloak and Vasco while meeting high-security standards and system requirements.",
+    "outcome": "Delivered a secure solution for enhanced authentication and authorization, ensuring proper functionality through rigorous testing and documentation.",
+    "image": "/images/bna.png"
+  },
+  {
+    "title": "BICICI Bank",
+    "descriptionEn": "I developed and implemented a customer management application for the International Bank for Commerce and Industry of Ivory Coast, covering networking, files, supply contracts, and agent management.",
+    "descriptionFr": "J'ai développé et mis en œuvre une application de gestion client pour la Banque Internationale pour le Commerce et l'Industrie de Côte d'Ivoire, couvrant la mise en réseau, les dossiers, les contrats d'approvisionnement et la gestion des agents.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL", "Git"],
+    "role": "Backend Engineer",
+    "responsibilities": [
+      "Testing and validating web services",
+      "Addressing technical feedback in production",
+      "Monitoring, logging, and auditing",
+      "Debugging",
+      "Contributing to BPMN creation"
+    ],
+    "challenges": "Handling technical feedback in production environments and debugging complex issues.",
+    "outcome": "Successfully delivered a reliable application for customer management with validated web services and robust monitoring capabilities.",
+    "image": "/images/bicici.png"
+  },
+  {
+    "title": "MyTT (Tunisie Telecom)",
+    "descriptionEn": "I developed and implemented a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of telecommunications services like balance inquiries, online top-ups, and offers and service management.",
+    "descriptionFr": "J'ai développé et mis en œuvre une application mobile pour les clients de Tunisie Télécom en tant qu'ingénieur backend, permettant la gestion des services de télécommunications tels que les consultations de solde, les recharges en ligne, ainsi que la gestion des offres et des services.",
+    "technologies": ["Java", "SpringBoot"],
+    "role": "Backend Engineer",
+    "responsibilities": [
+      "Designing and implementing modular backend architecture",
+      "Developing REST web services",
+      "Consuming SOAP web services",
+      "Consuming REST web services",
+      "Analyzing and documenting business and system requirements",
+      "Writing unit tests and validating web services",
+      "Monitoring, logging, and auditing",
+      "Debugging"
+    ],
+    "challenges": "Designing a modular backend architecture for telecom services and integrating third-party SOAP and REST web services.",
+    "outcome": "Successfully developed a robust mobile application backend, ensuring smooth integration with Tunisia Telecom's services.",
+    "image": "/images/myTT.png"
+  },
+  {
+    "title": "Custom Video Player Solution",
+    "descriptionEn": "I developed and customized an interactive video player using Vue.js and Vuex, enhancing the user experience with custom playback controls, interactive subtitles, and adaptive video quality options.",
+    "descriptionFr": "J'ai développé et personnalisé un lecteur vidéo interactif avec Vue.js et Vuex, améliorant l'expérience utilisateur grâce à des commandes de lecture sur mesure, des sous-titres interactifs et des options de qualité vidéo adaptative.",
+    "technologies": ["HTML", "CSS", "JavaScript", "TypeScript", "Vue"],
+    "role": "Frontend Developer",
+    "responsibilities": [
+      "Designing and implementing user interface for seamless video player experience",
+      "Implementing adaptive video quality for optimized performance across devices",
+      "Collaborating with backend developers for smooth integration",
+      "Conducting testing and debugging for functionality and responsiveness",
+      "Implementing Vuex for state management and dynamic updates",
+      "Migrating video player from Vue.js 2 with JavaScript to Vue.js 3 with TypeScript"
+    ],
+    "challenges": "Ensuring seamless integration with backend services and optimizing the player for different devices.",
+    "outcome": "Successfully developed an interactive video player with advanced features, integrated with existing backend systems.",
+    "image": "/images/sastec.png"
+  },
+  {
+    "title": "WebTv Platform",
+    "descriptionEn": "I developed a multimedia content management and distribution platform offering video on demand, WebTV, webinars, and live broadcasting with advanced features.",
+    "descriptionFr": "J'ai développé une plateforme de gestion et de distribution de contenus multimédias offrant de la vidéo à la demande, une WebTV, des webinaires et de la diffusion en direct avec des fonctionnalités avancées.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "GraphQL"
+    ],
+    "role": "Frontend Developer",
+    "responsibilities": [
+      "Designing and implementing new features",
+      "Migrating from REST APIs to GraphQL",
+      "Troubleshooting and resolving production issues",
+      "Converting design mockups into responsive websites",
+      "Integrating frontend with backend using GraphQL and REST APIs"
+    ],
+    "challenges": "Migrating from REST APIs to GraphQL for improved data handling and enhancing platform scalability.",
+    "outcome": "Successfully implemented a responsive and scalable WebTv platform, with a smooth user experience and enhanced data handling capabilities.",
+    "image": "/images/sastec.png"
+  },
+  {
+    "title": "SIYOU TECHNOLOGY (B2B)",
+    "descriptionEn": "I developed a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, prioritizing an intuitive user experience.",
+    "descriptionFr": "J'ai développé une application web complète pour simplifier les interactions commerciales entre entreprises, conçue avec React, TypeScript et Ant Design, en mettant l'accent sur une expérience utilisateur intuitive.",
+    "technologies": ["HTML", "CSS", "React", "AntDesign", "TypeScript"],
+    "role": "Frontend Developer",
+    "responsibilities": [
+      "Contributing to B2B app architecture with React",
+      "Implementing new features",
+      "Designing and implementing responsive UIs",
+      "Optimizing application performance",
+      "Integrating APIs with backend team",
+      "Creating technical documentation"
+    ],
+    "challenges": "Optimizing application performance and ensuring responsiveness across devices.",
+    "outcome": "Successfully delivered a fully responsive and high-performance B2B application for business interactions.",
+    "image": "/images/siyou.png"
+  },
+  {
+    "title": "SIYOU TECHNOLOGY (B2S2C)",
+    "descriptionEn": "I developed an e-commerce solution integrating retail sales, online sales, warehouse management, and logistics for B2S2C (Business to Shop to Customer) solutions using Angular.",
+    "descriptionFr": "J'ai développé une solution e-commerce intégrant les ventes au détail, les ventes en ligne, la gestion des stocks et la logistique pour des solutions B2S2C (Business to Shop to Customer) en utilisant Angular.",
+    "technologies": ["HTML", "CSS", "Angular", "TypeScript"],
+    "role": "Frontend Developer",
+    "responsibilities": [
+      "Developing new features for B2S2C solution using Angular",
+      "Designing and implementing responsive UIs",
+      "Integrating APIs with backend team",
+      "Fixing production issues to improve system reliability",
+      "Contributing to B2S and S2C Angular projects"
+    ],
+    "challenges": "Integrating various modules and enhancing system reliability.",
+    "outcome": "Successfully developed a reliable and scalable B2S2C platform, optimized for both retail and online sales.",
+    "liveDemo": "https://www.siyoutechnology.com",
+    "image": "/images/siyou.png",
+    "mobile": "https://play.google.com/store/apps/details?id=com.siyoumarkettn.siyou&hl=en"
+  },
+  {
+    "title": "E-Commerce Microservice",
+    "descriptionEn": "I developed a microservice application using Spring Boot and Spring Cloud, implementing distributed patterns like configuration servers, Eureka for service discovery, API Gateway, asynchronous communication with Kafka, and synchronous communication with OpenFeign and RestTemplate.",
+    "descriptionFr": "J'ai développé une application microservices en utilisant Spring Boot et Spring Cloud, en implémentant des modèles distribués tels que des serveurs de configuration, Eureka pour la découverte de services, API Gateway, communication asynchrone avec Kafka, et communication synchrone avec OpenFeign et RestTemplate.",
+    "technologies": ["Java", "SpringBoot", "Keycloak", "Kafka"],
+    "role": "Backend Developer",
+    "responsibilities": [
+      "Configuration Server for centralized configuration management",
+      "Discovery Server (Eureka) for service registration and discovery",
+      "API Gateway for routing requests and aggregating responses",
+      "Asynchronous Communication using Kafka for event-driven architecture",
+      "Synchronous Communication with OpenFeign and RestTemplate for RESTful service calls",
+      "Deployment with Kubernetes resources using the Jib Maven Plugin"
+    ],
+    "outcome": "Successfully built and deployed a robust microservices architecture using Spring Boot, Spring Cloud, Kafka, and Kubernetes, demonstrating key patterns like service discovery, centralized configuration, and event-driven communication.",
+    "sourceCode": "https://github.com/ramzibouzaiene/e-commerce-microservice-monorepo",
+    "image": "/images/archii.png",
+    "cover": "/images/spring.png"
+  }
+]

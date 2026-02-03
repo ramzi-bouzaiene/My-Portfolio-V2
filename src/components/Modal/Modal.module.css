@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'Desc';
+  src: url(../../assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Title';
+  src: url(../../assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
+}
+
+.modalContainer {
+  background-color: #3d3e42;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  margin: 5vh auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  z-index: 1000;
+  overflow: none;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-family: 'Title';
+  color: rgb(255, 200, 107);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-family: 'Desc';
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
+  justify-content: start;
+  align-items: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0px;
+  right: 4px;
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.closeButton:hover {
+  color: #ffc86b;
+}
+
+/* Large tablets (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .modalContainer {
+    width: 80%;
+    max-width: 600px;
+    padding: 1.8rem;
+  }
+  
+  .title {
+    font-size: 1.7rem;
+  }
+  
+  .description {
+    font-size: 1.05rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .modalContainer {
+    width: 85%;
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .image {
+    max-height: 150px;
+  }
+
+  .closeButton {
+    font-size: 1.8rem;
+    top: -8px;
+    right: 0px;
+  }
+}
+
+/* Small tablets (481px to 600px) */
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  .modalContainer {
+    width: 90%;
+    padding: 1.3rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .image {
+    max-height: 140px;
+  }
+
+  .closeButton {
+    font-size: 1.8rem;
+    top: -5px;
+    right: 2px;
+  }
+  
+  .tech {
+    gap: 8px;
+    margin-top: 15px;
+  }
+}
+
+/* Small phones (480px and below) */
+@media screen and (max-width: 480px) {
+  .modalContainer {
+    width: 92%;
+    padding: 1.2rem;
+    margin: 3vh auto;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .image {
+    max-height: 130px;
+  }
+
+  .closeButton {
+    font-size: 2rem;
+    top: -10px;
+    right: -2px;
+  }
+  
+  .tech {
+    gap: 6px;
+    margin-top: 12px;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media screen and (max-width: 360px) {
+  .modalContainer {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .image {
+    max-height: 110px;
+  }
+  
+  .tech {
+    gap: 5px;
+    margin-top: 10px;
+  }
+}

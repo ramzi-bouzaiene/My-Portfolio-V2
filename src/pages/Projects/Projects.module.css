@@ -1,0 +1,312 @@
+@font-face {
+  font-family: 'MyFontPrj';
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TitlePrj';
+  src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.card {
+  background: #3d3e42;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: #f0f0f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(61, 62, 66, 0.8);
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.card:hover .image {
+  transform: scale(1.2) rotate(6deg);
+}
+
+.image {
+  width: 100%;
+  height: 210px;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .icons {
+  opacity: 1;
+  z-index: 1;
+}
+
+.icons svg {
+  font-size: 2rem;
+  color: #ffc86b;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icons svg:hover {
+  transform: scale(1.2);
+}
+
+.cardImage {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 0.25rem;
+  background-color: #f0f0f0;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #ffc86b;
+  font-family: 'TitlePrj';
+  margin: 0.5rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #ccc;
+  font-family: 'MyFontPrj';
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ffc86b;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid #ffc86b;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #ffc86b;
+  color: #31333b;
+}
+
+.titleP {
+  text-align: center;
+}
+
+/* Large screens (1200px and up) */
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Medium-large screens (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .image {
+    height: 180px;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+}
+
+/* Small tablets (601px to 767px) */
+@media (min-width: 601px) and (max-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    padding: 1rem;
+  }
+  
+  .image {
+    height: 160px;
+  }
+  
+  .title {
+    font-size: 1rem;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+}
+
+/* Mobile phones (481px to 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.8rem;
+  }
+  
+  .card {
+    max-width: 100%;
+  }
+  
+  .image {
+    height: 140px;
+  }
+  
+  .title {
+    font-size: 0.95rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .content {
+    padding: 0.8rem;
+  }
+  
+  .icons svg {
+    font-size: 1.5rem;
+  }
+}
+
+/* Small phones (480px and below) */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .image {
+    height: 180px;
+  }
+  
+  .title {
+    font-size: 1rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .icons svg {
+    font-size: 1.8rem;
+  }
+  
+  .spanProjectStyle span {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+  .grid {
+    padding: 0.5rem;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+  }
+  
+  .description {
+    font-size: 0.85rem;
+  }
+}
+
+.spanProjectStyle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-family: 'MyFontExp';
+  margin-bottom: 5%;
+}
+
+.spanProjectStyle span {
+  display: inline-block;
+  background-color: #a1a1a2;
+  color: #31333b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}

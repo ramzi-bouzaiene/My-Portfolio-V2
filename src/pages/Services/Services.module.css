@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'SrvTitle';
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TitleSrv';
+  src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.serviceContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3d3e42;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.serviceContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.para {
+  font-family: 'SrvTitle';
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 0;
+  user-select: none;
+}
+
+.serviceTitle {
+  text-align: center;
+}
+
+.title {
+  font-family: 'TitleSrv';
+  color: #ffc86b;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  user-select: none;
+}
+
+/* Large screens (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .mainContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mainContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+  
+  .serviceContainer {
+    padding: 15px;
+  }
+  
+  .title {
+    font-size: 1.4rem;
+  }
+  
+  .para {
+    font-size: 1rem;
+  }
+}
+
+/* Small tablets (601px to 767px) */
+@media (min-width: 601px) and (max-width: 767px) {
+  .mainContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .serviceContainer {
+    padding: 12px;
+  }
+  
+  .title {
+    font-size: 1.3rem;
+  }
+  
+  .para {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile phones (481px to 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .mainContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  .serviceContainer {
+    padding: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+  }
+  
+  .para {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+/* Small phones (480px and below) */
+@media (max-width: 480px) {
+  .mainContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  
+  .serviceContainer {
+    padding: 12px;
+    width: 100%;
+  }
+  
+  .serviceTitle {
+    font-size: 1.25rem;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .para {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+  .serviceTitle {
+    font-size: 1.1rem;
+  }
+  
+  .title {
+    font-size: 1rem;
+  }
+  
+  .para {
+    font-size: 0.8rem;
+  }
+}

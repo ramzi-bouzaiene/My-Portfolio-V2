@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'TechFont';
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.techContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d3e42;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 8%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.techContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255, 200, 107, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.techContainer:hover::before {
+  opacity: 1;
+}
+
+.techContainer:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(240, 191, 108, 0.3);
+  background-color: #3d3e42;
+  border: 1px solid rgba(255, 200, 107, 0.3);
+}
+
+.techContainer img {
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.techContainer:hover img {
+  transform: scale(1.15) rotate(5deg);
+}
+
+.techContainer h5 {
+  font-size: 0.9rem;
+  color: #fff;
+  margin: 0;
+  font-family: 'TechFont';
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.techContainer:hover h5 {
+  color: #ffc86b;
+}
+
+.aboutTitle {
+  text-align: center;
+}
+
+/* Large tablets and small laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mainContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+    padding: 15px;
+  }
+
+  .techContainer {
+    padding: 6%;
+  }
+
+  .techContainer h5 {
+    font-size: 0.85rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .mainContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .techContainer {
+    padding: 5%;
+  }
+
+  .techContainer h5 {
+    font-size: 0.8rem;
+  }
+
+  .techContainer img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Small tablets (481px to 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .mainContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    padding: 8px;
+  }
+
+  .techContainer {
+    padding: 4%;
+  }
+
+  .techContainer h5 {
+    font-size: 0.75rem;
+  }
+
+  .techContainer img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+  .mainContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .techContainer {
+    padding: 8%;
+  }
+
+  .techContainer h5 {
+    font-size: 0.75rem;
+  }
+
+  .techContainer img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+  .mainContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+    padding: 5px;
+  }
+
+  .techContainer {
+    padding: 6%;
+  }
+
+  .techContainer h5 {
+    font-size: 0.7rem;
+  }
+
+  .techContainer img {
+    width: 30px;
+    height: 30px;
+  }
+}

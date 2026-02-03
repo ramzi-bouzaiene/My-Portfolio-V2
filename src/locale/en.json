@@ -1,0 +1,106 @@
+{
+  "navbar": {
+    "about": "About Me",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact Me",
+    "skills": "Skills",
+    "experience": "Experiences"
+  },
+
+  "about": {
+    "title": "About",
+    "greeting": "Hello, I'm",
+    "name": "Ramzi Bouzaiene",
+    "highlight": "Full Stack Engineer",
+    "description": "With 4+ years of experience designing, developing, and deploying enterprise-grade web applications, I specialize in building scalable backend systems and modern frontend interfaces. My passion lies in creating innovative solutions that drive business value while maintaining the highest standards of code quality and system performance.",
+    "techStack": "Core Technologies",
+    "stats": {
+      "years": "Years Experience",
+      "users": "Users Served",
+      "projects": "Projects Delivered",
+      "technologies": "Technologies"
+    },
+    "highlights": {
+      "scalable": {
+        "title": "Scalable Architecture",
+        "description": "Expert in building high-performance APIs, distributed systems, and enterprise applications"
+      },
+      "banking": {
+        "title": "Banking & FinTech",
+        "description": "Built mission-critical platforms serving millions of users with zero security incidents"
+      },
+      "ai": {
+        "title": "AI & Innovation",
+        "description": "Exploring LLMs and Generative AI to enhance developer workflows and user experiences"
+      }
+    }
+  },
+  "home": {
+    "iam": "I'AM",
+    "description": "Full Stack Engineer Passionate About",
+    "secondDescription": "Crafting Innovative Solutions Through Code.",
+    "resume": "Resume"
+  },
+  "services": {
+    "title": "Services",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Leveraging modern frameworks like React and Angular, I will craft a responsive, visually appealing frontend for your website or mobile app. Focus will be placed on performance optimization to ensure fast, smooth user experiences across all devices while aligning the design with your brand’s identity."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Secure, scalable APIs will be developed to power your application's core functionality, ensuring efficient data flow. Robust databases will be designed for seamless storage and retrieval of data, while backend logic will be optimized to ensure performance, security, and reliability."
+    },
+    "fullstack": {
+      "title": "Full-Stack Application",
+      "description": "A seamless full-stack solution will be created, integrating a dynamic frontend with a powerful backend. Real-time features like live notifications or chat systems will be added, while third-party services such as payment gateways and cloud storage will be integrated to extend your app’s functionality."
+    },
+    "devops": {
+      "title": "DevOps and Deployment",
+      "description": "Automated CI/CD pipelines will be implemented to streamline your development and deployment processes, ensuring faster, reliable releases. Your application will be deployed on scalable cloud platforms like AWS or Azure, while Docker and Kubernetes will be used for containerization and orchestration to improve management."
+    },
+    "maintenance": {
+      "title": "Maintenance and Support",
+      "description": "Ongoing support will ensure your application runs smoothly, with bug fixes and new features added as needed. Performance monitoring will identify and resolve bottlenecks, keeping your app fast and reliable, while regular updates will maintain the latest security standards and technologies."
+    },
+    "consulting": {
+      "title": "Consulting and Training",
+      "description": "I will guide you in selecting the best tools and technologies to achieve your business objectives, mentor your development team to improve their skills and boost productivity, and deliver customized workshops to help you and your team master full-stack development."
+    }
+  },
+  "skills": {
+    "skills": "My Skills"
+  },
+  "contact": {
+    "contactMe": "Contact Me",
+    "thanks": "Thanks for Scrolling",
+    "copyRight": "All rights reserved."
+  },
+  "experience": {
+    "title": "Experiences",
+    "backendEngineer": "Backend Engineer",
+    "frontendDeveloper": "Frontend Developer",
+    "backendEngineerTasks": {
+      "1": "Built scalable Java/Spring Boot backends for enterprise banking platforms serving 1M+ active users with high availability and reliability, processing 2M+ transactions annually worth over $500M in transaction volume.",
+      "2": "Significantly reduced authentication failures and improved system security by engineering custom Keycloak SPI integration with SOAP-based Vasco authentication services, protecting sensitive data for 1M+ users.",
+      "3": "Accelerated administrative workflows by building comprehensive back-office management system using JSP and PrimeFaces, enabling bank staff to process customer requests 2x faster and significantly reducing operational overhead.",
+      "4": "Delivered complete retail banking platform supporting account management, card operations, transfers, currency exchange, and bill payments with zero security incidents in production.",
+      "5": "Increased operational efficiency through business process automation using BPMN and Flowable workflow engine, eliminating 200+ hours of manual processing monthly and significantly reducing manual intervention.",
+      "6": "Collaborated with cross-functional teams of 12+ developers, product managers, and business analysts in Agile/Scrum environment, consistently delivering features on 2-week sprint cycles.",
+      "7": "Mentored junior developers and interns, establishing code review standards and best practices that substantially reduced production bugs and improved code reliability."
+    },
+    "sastecTasks": {
+      "1": "Accelerated project delivery by developing reusable React.js component library used across 5+ applications, ensuring UI/UX consistency and significantly reducing development time.",
+      "2": "Improved video streaming performance, reducing latency from 800ms to 480ms for real-time conferencing platform supporting 500+ concurrent users.",
+      "3": "Achieved comprehensive test coverage using Jest and React Testing Library, substantially reducing production incidents and improving code reliability across all deployments.",
+      "4": "Increased application responsiveness by migrating legacy REST API to GraphQL, reducing API calls significantly and improving user experience metrics.",
+      "5": "Delivered custom Vue.js video player with advanced playback controls, significantly increasing user engagement and receiving positive feedback from 200+ beta users."
+    },
+    "siyouTasks": {
+      "1": "Built and maintained large-scale B2S2C e-commerce platform using Angular, supporting 10,000+ daily transactions and serving 50+ business clients.",
+      "2": "Substantially reduced system downtime by identifying and resolving critical performance bottlenecks, significantly improving application stability and customer satisfaction scores.",
+      "3": "Developed scalable B2B platform using React, TypeScript, and Ant Design, significantly improving page load times and delivering enhanced user experience for enterprise clients."
+    }
+  }
+}

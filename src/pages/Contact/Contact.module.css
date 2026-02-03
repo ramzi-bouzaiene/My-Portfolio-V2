@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'TextFont';
+  src: url(../../assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
+    format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ContactFont';
+  src: url(../../assets/fonts/GoldenSans-LightDemo.otf) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EndTitleFont';
+  src: url(../../assets/fonts/TabacG3Medium.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MyFontT';
+  src: url(../../../src/assets/fonts/WrightRoman-SemiBold.woff) format('woff');
+  font-display: swap;
+}
+
+.contactText {
+  font-family: 'ContactFont';
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+
+  background-color: #3d3e42;
+}
+
+.container p {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 24px;
+  color: #ffc86b;
+  padding: 0 10px;
+  width: 35%;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.container p:nth-child(1),
+.container p:nth-child(2) {
+  background-color: #31333b;
+}
+
+.container p:nth-child(3) {
+  background-color: #31333b;
+  margin-left: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 2px solid #ffc86b;
+  margin: 0 20px;
+}
+
+.title {
+  font-family: 'TextFont';
+  color: #f9f9f9;
+  font-size: 3rem;
+}
+
+.endTitle {
+  font-family: 'EndTitleFont';
+  color: #ffc86b;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+/* Large tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container p {
+    width: 45%;
+    font-size: 1.1rem;
+  }
+
+  .endTitle {
+    font-size: 2.5rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .contactText {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 15px;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container p {
+    width: 80%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .container p:nth-child(3) {
+    margin-left: 0;
+  }
+
+  hr {
+    width: 70%;
+  }
+
+  .endTitle {
+    font-size: 2rem;
+    margin-top: 20%;
+  }
+
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 5%;
+  }
+}
+
+/* Small tablets (481px to 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .contactText {
+    font-size: 12px;
+  }
+
+  .line {
+    margin: 0 10px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 10px;
+    margin-top: 8%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container p {
+    width: 90%;
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .container p:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .titleContainer,
+  .secondTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .line {
+    flex: 1;
+    min-width: 50px;
+  }
+
+  hr {
+    width: 75%;
+  }
+
+  .endTitle {
+    font-size: 1.5rem;
+    margin-top: 30%;
+  }
+
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 6%;
+  }
+}
+
+/* Small phones (480px and below) */
+@media (max-width: 480px) {
+  .contactText {
+    font-family: 'ContactFont';
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    font-size: 11px;
+  }
+
+  .line {
+    margin: 0px 10px;
+    flex: 1;
+    min-width: 30px;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 10px;
+    margin-top: 10%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .secondTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .icons {
+    margin: 8%;
+  }
+
+  .container p:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .endTitle {
+    font-size: 1.25rem;
+    margin-top: 40%;
+  }
+
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+    gap: 5%;
+  }
+
+  .copyRight {
+    font-size: 12px;
+    margin-top: 25%;
+  }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+  .contactText {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .line {
+    min-width: 20px;
+  }
+
+  .container p {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+
+  .endTitle {
+    font-size: 1.1rem;
+  }
+
+  .copyRight {
+    font-size: 10px;
+  }
+}
+
+/* Keep 750px breakpoint styling */
+@media (max-width: 750px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .secondTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .line {
+    flex: 1;
+    min-width: 40px;
+  }
+}
+
+/* 1050px breakpoint */
+@media (min-width: 751px) and (max-width: 1050px) {
+  .contactText {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .container p {
+    font-size: 1.1rem;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .icons {
+    margin: 5%;
+  }
+
+  .container p:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .endTitle {
+    font-size: 2rem;
+    margin-top: 30%;
+  }
+}
+
+.copyRight {
+  color: #9f9fa0;
+  font-family: 'MyFontT';
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -7%;
+}
