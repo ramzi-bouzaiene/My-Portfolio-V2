@@ -132,10 +132,9 @@
 
 .styleImage {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   position: relative;
-  left: 12%;
   z-index: 1;
 }
 
