@@ -264,11 +264,6 @@
   box-shadow: 0 5px 15px rgba(255, 200, 107, 0.15);
 }
 
-/* ============================================
-   RESPONSIVE STYLES
-   ============================================ */
-
-/* Extra large screens (1400px and up) */
 @media (min-width: 1400px) {
   .aboutContainer {
     gap: 5rem;
