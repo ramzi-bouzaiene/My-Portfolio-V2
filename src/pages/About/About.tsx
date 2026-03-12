@@ -13,17 +13,14 @@ export const About = () => {
 
   const highlights = [
     {
-      icon: '🚀',
       title: t('about.highlights.scalable.title'),
       description: t('about.highlights.scalable.description'),
     },
     {
-      icon: '🏦',
       title: t('about.highlights.banking.title'),
       description: t('about.highlights.banking.description'),
     },
     {
-      icon: '🤖',
       title: t('about.highlights.ai.title'),
       description: t('about.highlights.ai.description'),
     },
@@ -86,7 +83,6 @@ export const About = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
               >
-                <span className={styles.highlightIcon}>{item.icon}</span>
                 <div className={styles.highlightContent}>
                   <h4 className={styles.highlightTitle}>{item.title}</h4>
                   <p className={styles.highlightDesc}>{item.description}</p>

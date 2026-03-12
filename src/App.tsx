@@ -1,13 +1,26 @@
-import { useState, useEffect } from 'react'
-import { About } from './pages/About/About'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { Navbar } from './components/Navbar/Navbar'
 import { Home } from './pages/Home/Home'
-import { Skills } from './pages/Skills/Skills'
-import { Project } from './pages/Projects/Projects'
-import { Experience } from './pages/Experience/Experience'
-import { Contact } from './pages/Contact/Contact'
-import { Services } from './pages/Services/Services'
 import { FaArrowUp } from 'react-icons/fa'
+import { CircularProgress, Box } from '@mui/material'
+
+const About = lazy(() => import('./pages/About/About').then(module => ({ default: module.About })))
+const Skills = lazy(() => import('./pages/Skills/Skills').then(module => ({ default: module.Skills })))
+const Project = lazy(() => import('./pages/Projects/Projects').then(module => ({ default: module.Project })))
+const Experience = lazy(() => import('./pages/Experience/Experience').then(module => ({ default: module.Experience })))
+const Contact = lazy(() => import('./pages/Contact/Contact').then(module => ({ default: module.Contact })))
+const Services = lazy(() => import('./pages/Services/Services').then(module => ({ default: module.Services })))
+
+const LoadingFallback = () => (
+  <Box sx={{ 
+    minHeight: '100vh', 
+    display: 'flex', 
+    alignItems: 'center', 
+    justifyContent: 'center' 
+  }}>
+    <CircularProgress sx={{ color: '#ffc86b' }} />
+  </Box>
+)
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -36,25 +49,37 @@ function App() {
       <Navbar /> <Home />
       <div>
         <section id="about" style={{ minHeight: '100vh', padding: '50px' }}>
-          <About />
+          <Suspense fallback={<LoadingFallback />}>
+            <About />
+          </Suspense>
         </section>
         <section id="services" style={{ minHeight: '100vh', padding: '50px' }}>
-          <Services />
+          <Suspense fallback={<LoadingFallback />}>
+            <Services />
+          </Suspense>
         </section>
         <section id="skills" style={{ minHeight: '100vh', padding: '50px' }}>
-          <Skills />
+          <Suspense fallback={<LoadingFallback />}>
+            <Skills />
+          </Suspense>
         </section>
         <section id="portfolio" style={{ minHeight: '100vh', padding: '50px' }}>
-          <Project />
+          <Suspense fallback={<LoadingFallback />}>
+            <Project />
+          </Suspense>
         </section>
         <section
           id="experience"
           style={{ minHeight: '100vh', padding: '50px' }}
         >
-          <Experience />
+          <Suspense fallback={<LoadingFallback />}>
+            <Experience />
+          </Suspense>
         </section>
         <section id="contact" style={{ padding: '50px' }}>
-          <Contact />
+          <Suspense fallback={<LoadingFallback />}>
+            <Contact />
+          </Suspense>
         </section>
       </div>
       <button

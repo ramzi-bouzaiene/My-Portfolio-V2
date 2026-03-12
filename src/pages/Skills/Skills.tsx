@@ -24,59 +24,59 @@ export const Skills = () => {
       </h1>
       <div className={styles.mainContainer}>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={html} width={100} height={100} />
+          <img src={html} width={100} height={100} alt="HTML5" />
           <h5>HTML</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={css} width={100} height={100} />
+          <img src={css} width={100} height={100} alt="CSS3" />
           <h5>CSS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={javascript} width={100} height={100} />
+          <img src={javascript} width={100} height={100} alt="JavaScript" />
           <h5>JAVASCRIPT</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={typescript} width={100} height={100} />
+          <img src={typescript} width={100} height={100} alt="TypeScript" />
           <h5>TYPESCRIPT</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={reactjs} width={100} height={100} />
+          <img src={reactjs} width={100} height={100} alt="React JS" />
           <h5>REACT JS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={angular} width={100} height={100} />
+          <img src={angular} width={100} height={100} alt="Angular" />
           <h5>ANGULAR</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={java} width={100} height={100} />
+          <img src={java} width={100} height={100} alt="Java" />
           <h5>JAVA</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={springboot} width={100} height={100} />
+          <img src={springboot} width={100} height={100} alt="Spring Boot" />
           <h5>SPRING BOOT</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={nodejs} width={100} height={100} />
+          <img src={nodejs} width={100} height={100} alt="Node JS" />
           <h5>NODE JS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={expressjs} width={100} height={100} />
+          <img src={expressjs} width={100} height={100} alt="Express JS" />
           <h5>EXPRESS JS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={kubernetes} width={100} height={100} />
+          <img src={kubernetes} width={100} height={100} alt="Kubernetes" />
           <h5>KUBERNETES</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={docker} width={100} height={100} />
+          <img src={docker} width={100} height={100} alt="Docker" />
           <h5>DOCKER</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={postgres} width={100} height={100} />
+          <img src={postgres} width={100} height={100} alt="PostgreSQL" />
           <h5>POSTGRES</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={mongodb} width={100} height={100} />
+          <img src={mongodb} width={100} height={100} alt="MongoDB" />
           <h5>MONGO DB</h5>
         </div>
       </div>

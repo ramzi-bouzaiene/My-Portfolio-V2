@@ -67,12 +67,42 @@ const ProjectCard = ({ project }: ProjectsProps) => {
           loading="lazy"
         />
         <div className={styles.icons}>
-          <FaInfoCircle onClick={handleOpenModal} />
+          <FaInfoCircle 
+            onClick={handleOpenModal} 
+            role="button"
+            aria-label={`View details for ${project.title}`}
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                handleOpenModal();
+              }
+            }}
+          />
           {project?.liveDemo && (
-            <TbWorldWww onClick={() => handleClickIcons(project.liveDemo)} />
+            <TbWorldWww 
+              onClick={() => handleClickIcons(project.liveDemo)} 
+              role="button"
+              aria-label={`View live demo for ${project.title}`}
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  handleClickIcons(project.liveDemo);
+                }
+              }}
+            />
           )}
           {project?.sourceCode && (
-            <FaGithub onClick={() => handleClickIcons(project.sourceCode)} />
+            <FaGithub 
+              onClick={() => handleClickIcons(project.sourceCode)} 
+              role="button"
+              aria-label={`View source code for ${project.title}`}
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  handleClickIcons(project.sourceCode);
+                }
+              }}
+            />
           )}
         </div>
       </div>

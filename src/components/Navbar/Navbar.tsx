@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css'
 import { Link } from 'react-scroll'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import Flag from 'react-world-flags'
 import { FaLanguage } from 'react-icons/fa6'
@@ -11,7 +11,7 @@ export const Navbar = () => {
   const { t } = useTranslation()
   const { i18n } = useTranslation()
 
-  const sections = ['about', 'services', 'skills', 'portfolio', 'experience', 'contact']
+  const sections = useMemo(() => ['about', 'services', 'skills', 'portfolio', 'experience', 'contact'], [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +31,7 @@ export const Navbar = () => {
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [sections])
 
   const changeLanguage = (lng: 'en' | 'fr') => {
     i18n.changeLanguage(lng)
