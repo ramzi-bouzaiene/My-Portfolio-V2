@@ -64,10 +64,6 @@ export const About = () => {
         <div className={styles.rightColumn} data-aos="fade-left" data-aos-duration="1000">
           <div className={styles.introBox}>
             <h2 className={styles.name}>{t('about.name')}</h2>
-            <div className={styles.roleTag}>
-              <span className={styles.roleDot}></span>
-              {t('about.highlight')}
-            </div>
           </div>
 
           <p className={styles.aboutPara}>
