@@ -77,6 +77,14 @@
     "thanks": "Thanks for Scrolling",
     "copyRight": "All rights reserved."
   },
+  "articles": {
+    "title": "Articles",
+    "all": "All",
+    "viewAll": "View All Articles",
+    "error": "Unable to load articles. Please try again later.",
+    "noArticles": "No articles found for this category.",
+    "readMore": "Read More"
+  },
   "experience": {
     "title": "Experiences",
     "backendEngineer": "Backend Engineer",

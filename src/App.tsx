@@ -7,6 +7,7 @@ import { CircularProgress, Box } from '@mui/material'
 const About = lazy(() => import('./pages/About/About').then(module => ({ default: module.About })))
 const Skills = lazy(() => import('./pages/Skills/Skills').then(module => ({ default: module.Skills })))
 const Project = lazy(() => import('./pages/Projects/Projects').then(module => ({ default: module.Project })))
+const MediumArticles = lazy(() => import('./pages/Articles/Articles').then(module => ({ default: module.MediumArticles })))
 const Experience = lazy(() => import('./pages/Experience/Experience').then(module => ({ default: module.Experience })))
 const Contact = lazy(() => import('./pages/Contact/Contact').then(module => ({ default: module.Contact })))
 const Services = lazy(() => import('./pages/Services/Services').then(module => ({ default: module.Services })))
@@ -66,6 +67,11 @@ function App() {
         <section id="portfolio" style={{ minHeight: '100vh', padding: '50px' }}>
           <Suspense fallback={<LoadingFallback />}>
             <Project />
+          </Suspense>
+        </section>
+        <section id="articles" style={{ minHeight: '100vh', padding: '50px' }}>
+          <Suspense fallback={<LoadingFallback />}>
+            <MediumArticles />
           </Suspense>
         </section>
         <section

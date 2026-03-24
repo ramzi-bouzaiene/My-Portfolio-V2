@@ -77,6 +77,14 @@
     "thanks": "Merci de votre visite",
     "copyRight": "Tous droits réservés."
   },
+  "articles": {
+    "title": "Articles",
+    "all": "Tous",
+    "viewAll": "Voir Tous les Articles",
+    "error": "Impossible de charger les articles. Veuillez réessayer plus tard.",
+    "noArticles": "Aucun article trouvé pour cette catégorie.",
+    "readMore": "Lire la suite"
+  },
   "experience": {
     "title": "Expériences Professionnelles",
     "backendEngineer": "Ingénieur Backend",

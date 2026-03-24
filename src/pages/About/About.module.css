@@ -31,12 +31,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .imageGlow {
   position: absolute;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   background: linear-gradient(135deg, #ffc86b 0%, #ff8c42 50%, #ffc86b 100%);
   border-radius: 50%;
   filter: blur(60px);
@@ -57,8 +60,10 @@
 
 .imageStyle {
   width: 100%;
-  max-width: 350px;
   height: auto;
+  max-width: 350px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
   position: relative;
   z-index: 1;
   filter: drop-shadow(0 10px 30px rgba(255, 200, 107, 0.2));
@@ -307,7 +312,30 @@
   }
 
   .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+
+  .imageGlow {
+    width: 60%;
+    height: 60%;
+    filter: blur(50px);
+  }
+}
+
+/* Medium-large screens (1025px to 1199px) */
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .aboutContainer {
+    gap: 3rem;
+  }
+
+  .imageWrapper {
     max-width: 320px;
+  }
+
+  .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
   }
 
   .name {
@@ -359,7 +387,12 @@
   }
 
   .imageWrapper {
-    max-width: 300px;
+    max-width: 280px;
+  }
+
+  .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
   }
 
   .statsGrid {
@@ -421,15 +454,17 @@
   }
 
   .imageWrapper {
-    max-width: 250px;
+    max-width: 220px;
+  }
+
+  .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    filter: none;
   }
 
   .imageGlow {
     display: none;
-  }
-
-  .imageStyle {
-    filter: none;
   }
 
   .statsGrid {
@@ -534,15 +569,17 @@
   }
 
   .imageWrapper {
-    max-width: 200px;
+    max-width: 180px;
+  }
+
+  .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    filter: none;
   }
 
   .imageGlow {
     display: none;
-  }
-
-  .imageStyle {
-    filter: none;
   }
 
   .imageStyle:hover {
@@ -676,7 +713,12 @@
 /* Very small phones (360px and below) */
 @media (max-width: 360px) {
   .imageWrapper {
-    max-width: 180px;
+    max-width: 150px;
+  }
+
+  .imageStyle {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
   }
 
   .statsGrid {
