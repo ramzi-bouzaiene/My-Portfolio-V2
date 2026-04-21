@@ -5,7 +5,7 @@ export const About = () => {
   const { t } = useTranslation()
 
   const stats = [
-    { number: '4+', label: t('about.stats.years') },
+    { number: '5+', label: t('about.stats.years') },
     { number: '1M+', label: t('about.stats.users') },
     { number: '20+', label: t('about.stats.projects') },
     { number: '15+', label: t('about.stats.technologies') },
