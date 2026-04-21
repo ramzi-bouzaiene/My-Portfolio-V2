@@ -76,7 +76,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg) scale(1);
   }
   25% {
@@ -135,6 +136,7 @@
   object-fit: cover;
   position: relative;
   z-index: 1;
+  margin-top: 10%;
 }
 
 .mainPara {
