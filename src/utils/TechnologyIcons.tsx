@@ -2,7 +2,6 @@ import java from '/techIcons/icons8-java-96.png'
 import keycloak from '/techIcons/icons8-keycloak-96.png'
 import postgres from '/techIcons/icons8-postgres-96.png'
 import spring from '/techIcons/icons8-spring-boot-96.png'
-
 import angluar from '/techIcons/icons8-angular-96.png'
 import react from '/techIcons/icons8-react-js-96.png'
 import redux from '/techIcons/icons8-redux-96.png'
@@ -18,6 +17,10 @@ import devops from '/techIcons/icons8-devops-60.png'
 import antDesign from '/techIcons/ant-design.png'
 import kafka from '/techIcons/icons8-apache-kafka-96.png'
 import tailwind from '/techIcons/icons8-tailwindcss-96.png'
+import node from '/techIcons/icons8-node-js-100.png'
+import express from '/techIcons/icons8-express-js-100.png'
+import gemini from '/techIcons/gemini-color.png'
+
 interface TechnologyIconsMapping {
   [key: string]: string
 }
@@ -42,6 +45,9 @@ const technologyIcons: TechnologyIconsMapping = {
   AntDesign: antDesign,
   Kafka: kafka,
   TailwindCSS: tailwind,
+  Node: node,
+  Express: express,
+  Gemini: gemini
 }
 
 interface TechnologyIconsProps {
