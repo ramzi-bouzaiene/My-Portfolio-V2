@@ -97,10 +97,10 @@
     "image": "/images/bicici.png"
   },
   {
-    "title": "MyTT (Tunisie Telecom)",
-    "descriptionEn": "I developed and implemented a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of telecommunications services like balance inquiries, online top-ups, and offers and service management.",
-    "descriptionFr": "J'ai développé et mis en œuvre une application mobile pour les clients de Tunisie Télécom en tant qu'ingénieur backend, permettant la gestion des services de télécommunications tels que les consultations de solde, les recharges en ligne, ainsi que la gestion des offres et des services.",
-    "technologies": ["Java", "SpringBoot"],
+    "title": "UBank – API Gateway",
+    "descriptionEn": "Implementation of an APISIX API Gateway to enable secure, real-time communication between UBank’s internal platforms and external partners. The project delivered seamless access to RTP/FedNow money transfers via Fiserv Payments Exchange. The gateway not only manages and secures third-party access but also ensures compliant integration within the embedded finance ecosystem, laying the foundation for scalable embedded payment services.",
+    "descriptionFr": "Mise en œuvre d’une passerelle API APISIX permettant d’assurer des communications sécurisées et en temps réel entre les plateformes internes d’UBank et ses partenaires externes. Le projet a permis un accès fluide aux transferts d’argent instantanés RTP/FedNow via Fiserv Payments Exchange. La passerelle assure la gestion, la sécurisation et le contrôle des accès des partenaires tiers tout en garantissant une intégration conforme aux exigences de l’écosystème de la finance embarquée. Cette solution constitue une base robuste et évolutive pour le déploiement de futurs services de paiement intégrés.",
+    "technologies": ["APISIX", "LUA", "AZURE"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Designing and implementing modular backend architecture",
@@ -114,7 +114,7 @@
     ],
     "challenges": "Designing a modular backend architecture for telecom services and integrating third-party SOAP and REST web services.",
     "outcome": "Successfully developed a robust mobile application backend, ensuring smooth integration with Tunisia Telecom's services.",
-    "image": "/images/myTT.png"
+    "image": "/images/ubank.png"
   },
   {
     "title": "Custom Video Player Solution",
@@ -214,5 +214,19 @@
     "sourceCode": "https://github.com/ramzibouzaiene/e-commerce-microservice-monorepo",
     "image": "/images/archii.png",
     "cover": "/images/spring.png"
+  },
+  {
+    "title": "AI-Powered Intelligent Task Management System – Backend",
+    "descriptionEn": "Developed an intelligent task management backend with secure authentication, role-based access control, project and task management, and AI-powered assistance. Integrated Google Gemini and Postgres MCP to enable data-aware interactions and productivity insights through a scalable RESTful API architecture.",
+    "descriptionFr": "Développement d’un backend de gestion intelligente des tâches intégrant une authentification sécurisée, la gestion des rôles, des projets et des tâches, ainsi qu’un assistant alimenté par l’IA. Intégration de Google Gemini et Postgres MCP pour fournir des interactions intelligentes basées sur les données via une architecture API REST évolutive.",
+    "technologies": [
+      "Node",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Gemini"
+    ],
+    "sourceCode": "https://github.com/ramzi-bouzaiene/Intelligent-Task-Management-BE",
+    "image": "/images/github-logo.png"
   }
 ]
