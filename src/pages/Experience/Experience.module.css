@@ -66,11 +66,11 @@ h4 {
   h3 {
     font-size: 1.1rem;
   }
-  
+
   h4 {
     font-size: 1rem;
   }
-  
+
   li {
     font-size: 0.95rem;
   }
@@ -81,15 +81,15 @@ h4 {
   h3 {
     font-size: 1rem;
   }
-  
+
   h4 {
     font-size: 0.95rem;
   }
-  
+
   li {
     font-size: 0.9rem;
   }
-  
+
   .spanStyle span {
     font-size: 0.8rem;
     padding: 4px 8px;
@@ -101,19 +101,19 @@ h4 {
   h3 {
     font-size: 0.95rem;
   }
-  
+
   h4 {
     font-size: 0.9rem;
   }
-  
+
   li {
     font-size: 0.85rem;
   }
-  
+
   .spanStyle {
     gap: 6px;
   }
-  
+
   .spanStyle span {
     font-size: 0.75rem;
     padding: 3px 7px;
@@ -125,26 +125,26 @@ h4 {
   h3 {
     font-size: 0.9rem;
   }
-  
+
   h4 {
     font-size: 0.85rem;
   }
-  
+
   li {
     font-size: 0.8rem;
     margin-left: -10px;
   }
-  
+
   .spanStyle {
     gap: 5px;
     margin-top: 10px;
   }
-  
+
   .spanStyle span {
     font-size: 0.7rem;
     padding: 3px 6px;
   }
-  
+
   .dateStyle {
     font-size: 0.75rem;
   }
@@ -155,15 +155,15 @@ h4 {
   h3 {
     font-size: 0.85rem;
   }
-  
+
   h4 {
     font-size: 0.8rem;
   }
-  
+
   li {
     font-size: 0.75rem;
   }
-  
+
   .spanStyle span {
     font-size: 0.65rem;
   }

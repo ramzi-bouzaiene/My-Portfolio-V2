@@ -87,8 +87,11 @@
   },
   "experience": {
     "title": "Expériences Professionnelles",
+    "fullTime": "Temps Plein",
+    "partTime": "Temps Partiel",
     "backendEngineer": "Ingénieur Backend",
     "frontendDeveloper": "Développeur Frontend",
+    "fullStackDeveloper": "Développeur Full Stack",
     "backendEngineerTasks": {
       "1": "Développé des systèmes back-end évolutifs en Java/Spring Boot pour des plateformes bancaires d'entreprise servant plus d'1M d'utilisateurs actifs avec haute disponibilité, traitant plus de 2M de transactions annuelles représentant plus de 500M$ en volume.",
       "2": "Réduit significativement les échecs d'authentification et amélioré la sécurité du système en développant une intégration personnalisée Keycloak SPI avec les services d'authentification Vasco basés sur SOAP, protégeant les données sensibles de plus d'1M d'utilisateurs.",
@@ -109,6 +112,14 @@
       "1": "Construit et maintenu une plateforme e-commerce B2S2C à grande échelle utilisant Angular, supportant plus de 10 000 transactions quotidiennes et servant plus de 50 clients entreprise.",
       "2": "Réduit substantiellement les temps d'arrêt du système en identifiant et résolvant les goulots d'étranglement critiques de performance, améliorant significativement la stabilité de l'application et les scores de satisfaction client.",
       "3": "Développé une plateforme B2B évolutive utilisant React, TypeScript et Ant Design, améliorant significativement les temps de chargement des pages et offrant une expérience utilisateur améliorée pour les clients entreprise."
+    },
+    "nachdIT": {
+      "1": "Développement et maintenance d'applications web sur mesure pour divers clients avec Laravel/PHP.",
+      "2": "Conception et intégration d'API REST ainsi que de services tiers.",
+      "3": "Modélisation et optimisation des bases de données MySQL pour garantir performance et évolutivité.",
+      "4": "Réalisation d'interfaces utilisateur responsives et intuitives à l'aide des technologies front-end modernes.",
+      "5": "Participation aux phases de déploiement, de tests, de maintenance corrective et évolutive.",
+      "6": "Optimisation des performances applicatives, renforcement de la sécurité et amélioration de la qualité du code."
     }
   }
 }
