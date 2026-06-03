@@ -35,7 +35,7 @@ export const Experience = () => {
               className="vertical-timeline-element-subtitle"
               style={{ color: "#ffc86b" }}
             >
-              Proxym Group
+              Proxym Group - {t("experience.fullTime")}
             </h4>
             <ul style={{ fontSize: "17px" }}>
               <li>{t("experience.backendEngineerTasks.1")}</li>
@@ -65,7 +65,7 @@ export const Experience = () => {
               className="vertical-timeline-element-subtitle"
               style={{ color: "#ffc86b" }}
             >
-              Sastec TN
+              Sastec TN - {t("experience.fullTime")}
             </h4>
             <ul style={{ fontSize: "17px" }}>
               <li>{t("experience.sastecTasks.1")}</li>
@@ -75,7 +75,34 @@ export const Experience = () => {
               <li>{t("experience.sastecTasks.5")}</li>
             </ul>
           </VerticalTimelineElement>
-
+<VerticalTimelineElement
+            position="right"
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#3d3e42", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  #3d3e42" }}
+            date="Jul 2022 - Aug 2023"
+            dateClassName={styles.dateStyle}
+            iconStyle={{ background: "#f0bf6c", color: "#fff" }}
+            icon={<MdHomeWork />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              {t("experience.fullStackDeveloper")}
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ color: "#ffc86b" }}
+            >
+              Nachd-IT - {t("experience.partTime")}
+            </h4>
+            <ul style={{ fontSize: "17px" }}>
+              <li>{t("experience.nachdIT.1")}</li>
+              <li>{t("experience.nachdIT.2")}</li>
+              <li>{t("experience.nachdIT.3")}</li>
+              <li>{t("experience.nachdIT.4")}</li>
+              <li>{t("experience.nachdIT.5")}</li>
+              <li>{t("experience.nachdIT.6")}</li>
+            </ul>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             position="right"
             className="vertical-timeline-element--work"
@@ -93,7 +120,7 @@ export const Experience = () => {
               className="vertical-timeline-element-subtitle"
               style={{ color: "#ffc86b" }}
             >
-              Siyou Technology
+              Siyou Technology - {t("experience.fullTime")}
             </h4>
             <ul style={{ fontSize: "17px" }}>
               <li>{t("experience.siyouTasks.1")}</li>

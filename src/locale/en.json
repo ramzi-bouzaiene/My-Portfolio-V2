@@ -87,8 +87,11 @@
   },
   "experience": {
     "title": "Experiences",
+    "fullTime": "Full Time",
+    "partTime": "Part Time",
     "backendEngineer": "Backend Engineer",
     "frontendDeveloper": "Frontend Developer",
+    "fullStackDeveloper": "Full Stack Developer",
     "backendEngineerTasks": {
       "1": "Built scalable Java/Spring Boot backends for enterprise banking platforms serving 1M+ active users with high availability and reliability, processing 2M+ transactions annually worth over $500M in transaction volume.",
       "2": "Significantly reduced authentication failures and improved system security by engineering custom Keycloak SPI integration with SOAP-based Vasco authentication services, protecting sensitive data for 1M+ users.",
@@ -109,6 +112,14 @@
       "1": "Built and maintained large-scale B2S2C e-commerce platform using Angular, supporting 10,000+ daily transactions and serving 50+ business clients.",
       "2": "Substantially reduced system downtime by identifying and resolving critical performance bottlenecks, significantly improving application stability and customer satisfaction scores.",
       "3": "Developed scalable B2B platform using React, TypeScript, and Ant Design, significantly improving page load times and delivering enhanced user experience for enterprise clients."
+    },
+    "nachdIT": {
+      "1": "Developed and maintained web applications for multiple client projects using Laravel and PHP.",
+      "2": "Built RESTful APIs and integrated third-party services.",
+      "3": "Designed and optimized MySQL database schemas and queries for performance and scalability.",
+      "4": "Implemented responsive user interfaces using HTML, CSS, JavaScript, and modern frontend frameworks.",
+      "5": "Participated in application deployment, bug fixing, testing, and ongoing maintenance.",
+      "6": "Improved application performance, security, and code quality through best development practices."
     }
   }
 }
